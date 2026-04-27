@@ -45,8 +45,10 @@ async function fetchVistaImage(vista) {
     let response = await fetch (fetchURL);
     let locationArray = await response.json();
 
+    const displayedText = locationInput.options[locationInput.selectedIndex].text;
+    
     if (locationArray.error) {
-		document.getElementById("vistaImgCarousel").innerHTML = `Location '${vista}' not found`;
+		document.getElementById("searchTerm").innerHTML = `Location '${displayedText}' not found`;
 
     } else {
         handleResponse(locationArray);

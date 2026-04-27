@@ -41,8 +41,8 @@ h2 {
     margin-right: 10px;
 }
 
-input.emptyBox,
-input.emptyBox:focus {
+.emptyBox,
+.emptyBox:focus {
     border: 2px solid red;
     outline: none;
 }
