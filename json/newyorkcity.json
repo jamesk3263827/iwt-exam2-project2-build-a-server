@@ -1,0 +1,9 @@
+{
+	"message": [
+		"http://127.0.0.1:3000/images/newyorkcity/newyorkcity-01.jpg",
+		"http://127.0.0.1:3000/images/newyorkcity/newyorkcity-02.jpg",
+		"http://127.0.0.1:3000/images/newyorkcity/newyorkcity-03.jpg"
+	],
+
+	"status": "success"
+}

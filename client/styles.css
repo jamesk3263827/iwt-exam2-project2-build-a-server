@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(235, 235, 235);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color:cadetblue;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    color: black;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+#redText {
+    color: red;
+    font-weight: bold;
+}
+
+#instructions {
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#searchTerm {
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#gridcontainer {
+    display:grid;
+    grid-template-columns: auto;
+    justify-content:center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+input.emptyBox,
+input.emptyBox:focus {
+    border: 2px solid red;
+    outline: none;
+}
+
