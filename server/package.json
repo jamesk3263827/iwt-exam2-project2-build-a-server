@@ -1,13 +1,13 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Express server for Internet & Web Technology, Test2, Part2, API Server Backend Using Node",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "James Kelley",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {

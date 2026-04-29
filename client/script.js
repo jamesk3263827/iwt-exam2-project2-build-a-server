@@ -41,7 +41,7 @@ function checkEntry () {
 };
 
 async function fetchVistaImage(vista) {
-    let fetchURL = `http://127.0.0.1:3000/api/img?category=${vista}`;
+    let fetchURL = `http://localhost:3000/api/img?category=${vista}`;
     let response = await fetch (fetchURL);
     let locationArray = await response.json();
 
